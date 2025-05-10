@@ -1,0 +1,8 @@
+local fldr = Instance.new("Folder", game.Workspace)
+local gui = Instance.new("ScreenGui", fldr)
+
+function NewWin(Title, SX, SY)
+    local WIN = Instance.new("Frame", gui)
+    WIN.Size = UDim2(SX,0,SY,0)
+    
+end
