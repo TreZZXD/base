@@ -1,5 +1,5 @@
 local fldr = Instance.new("Folder", game.Workspace)
-local gui = Instance.new("ScreeGui", fldr)
+local gui = Instance.new("ScreenGui", fldr)
 
 function NewWin(Title, SX, SY)
     local WIN = Instance.new("Frame", gui)
